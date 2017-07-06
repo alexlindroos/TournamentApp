@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/txt_setresult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Set result"/>
+
+    <TextView
+        android:id="@+id/txt_player1"
+        android:layout_below="@+id/txt_setresult"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 1" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/picker_player1"
+        android:layout_below="@id/txt_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:np_width="180dp"
+        app:np_height="64dp"
+        app:np_orientation="horizontal"
+        app:np_min="0"
+        app:np_max="99">
+
+    </com.shawnlin.numberpicker.NumberPicker>
+
+    <TextView
+        android:id="@+id/txt_vs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/picker_player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VS"/>
+
+    <TextView
+        android:id="@+id/txt_player2"
+        android:layout_below="@+id/txt_vs"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player 2" />
+
+    <com.shawnlin.numberpicker.NumberPicker
+        android:id="@+id/picker_player2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/txt_player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:np_width="180dp"
+        app:np_height="64dp"
+        app:np_orientation="horizontal"
+        app:np_min="0"
+        app:np_max="99">
+
+    </com.shawnlin.numberpicker.NumberPicker>
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_below="@+id/picker_player2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"/>
+
+
+</RelativeLayout>

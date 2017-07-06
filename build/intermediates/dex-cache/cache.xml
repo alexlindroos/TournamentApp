@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/codemate/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/3.4.0/ee860e7723eef61080e34f5b098f7ee22b356770/realm-annotations-3.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ee860e7723eef61080e34f5b098f7ee22b356770">
+        <dex dex="/Users/codemate/Desktop/TournamentOrganizer/app/build/intermediates/pre-dexed/debug/realm-annotations-3.4.0_56c87390479dd272a90f96c65f278a0ab5a87c2d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/codemate/.android/build-cache/4c2162e2d17c530e9d9b12f3a47002b36f385860/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/codemate/Desktop/TournamentOrganizer/app/build/intermediates/pre-dexed/debug/classes_ad265ad15b6e19c36b3c9fa885fce4d53dc761b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/codemate/.gradle/caches/modules-2/files-2.1/org.jetbrains.anko/anko-commons/0.10.1/bcf698b95e7e1d480a65d049af705286f2776a81/anko-commons-0.10.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bcf698b95e7e1d480a65d049af705286f2776a81">
+        <dex dex="/Users/codemate/Desktop/TournamentOrganizer/app/build/intermediates/pre-dexed/debug/anko-commons-0.10.1_36e10432890cc6bb4833f5814eddf1c3bda811b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/codemate/.android/build-cache/72ef5c4b8b3595c188dd63f59791d250132fcb14/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="cd9bc76e438f6e38bf6f8ba72821552fe5afbe23">
+        <dex dex="/Users/codemate/Desktop/TournamentOrganizer/app/build/intermediates/pre-dexed/debug/classes_028da6ac4b7de390d6c00cc15457cd687ffcaafe.jar" />
+    </item>
+
+</items>
